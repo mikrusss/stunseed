@@ -80,6 +80,7 @@
   width: 50%;
   height: 50%;
   margin-top: 50px;
+  margin-bottom: 30px;
   align-items: center;
   text-align: center;
   background-color: white;
@@ -92,9 +93,139 @@
   height: auto;
 }
 
+.text-gkwadratowa {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.title-gkwadratowa {
+  padding-bottom: 20px;
+  color: orange;
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+
+.p-gkwadratowa {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.div-gstandardowa {
+  display: inline-flex;
+  width: 50%;
+  height: 50%;
+  margin-bottom: 30px;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  background-image: linear-gradient(to bottom left, white, lightgray);
+}
+
+.img-gstandardowa {
+  content: url(img/modernroom\ gallery.jpg);
+  width: 50%;
+  height: auto;
+}
+
+.text-gstandardowa {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.title-gstandardowa {
+  padding-bottom: 20px;
+  color: orange;
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+
+.p-gstandardowa {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.div-gszeroka {
+  display: inline-flex;
+  width: 50%;
+  height: 50%;
+  margin-bottom: 30px;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  background-image: linear-gradient(to bottom left, white, lightgray);
+}
+
+.img-gszeroka {
+  content: url(img/rooftop\ gallery.jpg);
+  width: 50%;
+  height: auto;
+}
+
+.text-gszeroka {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.title-gszeroka {
+  padding-bottom: 20px;
+  color: orange;
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+
+.p-gszeroka {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.div-goferta {
+  display: inline-flex;
+  width: 60%;
+  height: 50%;
+  margin-top: 50px;
+  align-items: center;
+  margin-bottom: 50px;
+  background-color: white;
+  background-image: linear-gradient(to bottom left, white, lightgray);
+}
+
+.img-goferta {
+  content: url(img/galeria.png);
+  width: 67%;
+  height: auto;
+}
+
+.text-goferta {
+  margin-left: 20px;
+  padding-top: 50px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.title-goferta {
+  padding-bottom: 20px;
+  color: orange;
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+
+.line-goferta {
+  width: 120px;
+  height: 0px;
+  margin-left: 0px;
+  bottom: 20px;
+  position: relative;
+  border: 1px solid orange;
+}
+
+.p-goferta {
+  color: grey;
+  margin-bottom: 10px;
+}
+
 /*-------------------Footer do home-------------------*/
 
-.footer-onas {
+.footer-galerie {
   display: block;
   width: auto;
   height: auto;
