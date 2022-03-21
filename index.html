@@ -3,130 +3,134 @@
   <head>
     <meta charset="UTF-8" />
     <title>Home</title>
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header>
-      <section class="section1">
-        <div class="pichead">
-          <img src="img/iconmonstr-home-1-72.png" alt="gallery" />
-        </div>
-        <div class="div1">
-          <ul>
-            <div class="divstick">
-              <li>
-                <a href="index.html">HOME</a>
-              </li>
-            </div>
-            <div class="divstick">
-              <li>
-                <a href="index2.html">O NAS</a>
-              </li>
-            </div>
-
-            <div class="divstick">
-              <li>
-                <a href="index.html">GALERIE</a>
-              </li>
-            </div>
-            <div class="divstick">
-              <li>
-                <a href="index.html">VIDEO</a>
-              </li>
-            </div>
-            <div class="divstickno-border">
-              <li>
-                <a href="index.html">KONTAKT</a>
-              </li>
-            </div>
-          </ul>
-        </div>
-      </section>
+  <body class="body-home">
+    <header class="header-home">
+      <img src="img/iconmonstr-home-1-72.png" alt="Home" />
+      <nav class="header-nav">
+        <ul>
+          <div class="header-stick">
+            <li class="header-list">
+              <a href="index.html" class="header-links">HOME</a>
+            </li>
+          </div>
+          <div class="header-stick">
+            <li class="header-list">
+              <a href="index2.html" class="header-links">O NAS</a>
+            </li>
+          </div>
+          <div class="header-stick">
+            <li class="header-list">
+              <a href="index3.html" class="header-links">GALERIE+</a>
+            </li>
+          </div>
+          <div class="header-stick">
+            <li class="header-list">
+              <a href="index.html" class="header-links">VIDEO</a>
+            </li>
+          </div>
+          <div class="header-stick-no-border">
+            <li class="header-list">
+              <a href="index.html" class="header-links">KONTAKT</a>
+            </li>
+          </div>
+        </ul>
+      </nav>
     </header>
-    <main>
-      <section class="section2">
-        <div class="div2">
-          <h2>Nam Imperdiet</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-            ipsam alias ipsum ea voluptas quo dolorum cum impedit reiciendis
-            officia commodi, adipisci aperiam. Ut ratione, aliquam quam incidunt
-            asperiores nihil?
+    <main class="main-home">
+      <section class="section-introduction">
+        <div class="introduction-text">
+          <h2 class="introduction-title">Introduction</h2>
+          <p class="introduction-p">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+            voluptatem dolore asperiores quo dolorem est fuga, eligendi, sunt
+            perspiciatis aperiam nulla quasi autem atque nesciunt illo maiores
+            excepturi rerum exercitationem.
           </p>
         </div>
-        <div class="pic">
-          <img src="/fajna strona/img/greystairs.png" alt="stairs" />
+        <div class="introduction-image">
+          <img src="img/greystairs.png" alt="greystairs" />
         </div>
       </section>
-      <section class="section3">
-        <div class="pic2">
+      <section class="section-home">
+        <div class="home-img">
           <img src="img/modernroom.jpg" alt="modernroom" />
         </div>
-        <div class="div3">
-          <h2>Home</h2>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-            impedit vel! Dolorum repellendus similique commodi error libero,
-            ullam, ipsam fugiat esse corporis voluptatibus, voluptatum velit
-            atque optio laboriosam non voluptatem!
+        <div class="home-text">
+          <h2 class="home-title">Home</h2>
+          <hr class="home-line" />
+          <p class="home-p">
+            Deserunt magni, eos, libero totam blanditiis saepe nihil, ipsam non
+            deleniti ipsum distinctio hic possimus error quidem ex. Sunt dolorem
+            aliquid quasi dignissimos excepturi accusantium minima atque
+            obcaecati esse, qui rem?
           </p>
         </div>
       </section>
     </main>
-    <footer>
-      <section class="section4">
-        <div class="divfooter">
-          <p>
-            Szybki kontakt: <a href="tell: +48 000 000 000">+48 000 000 000</a>
-          </p>
-          <div class="media">
-            <a href="https://www.facebook.com/kremufkapej-103575088151304"
-              ><img src="img/iconmonstr-facebook-5-32.png" alt="facebook"
-            /></a>
-            <a href="https://www.instagram.com/internat_pzs2/"
-              ><img src="img/iconmonstr-instagram-15-32.png" alt="instagram"
-            /></a>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              ><img src="img/iconmonstr-youtube-10-32.png" alt="youtube"
-            /></a>
-          </div>
-        </div>
-        <div class="divfooter2">
-          <div class="footerp">
-            <p>Wizyt dzisiaj:</p>
-            <p>Wszystkich wizyt:</p>
-          </div>
-
+    <footer class="footer-home">
+      <div class="footer-contact">
+        <p class="tell-p">
+          Szybki kontakt:
+          <a href="tell:+48 000 000 000" class="tell-a">+48 000 000 000</a>
+        </p>
+        <nav class="media-nav">
           <ul>
-            <div class="divstick2">
-              <li>
-                <p>
-                  Copyright &copy;
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                </p>
+            <li class="footer-media">
+              <a href="https://www.facebook.com/kremufkapej-103575088151304"
+                ><img src="img/iconmonstr-facebook-5-32.png" alt="facebook"
+              /></a>
+            </li>
+            <li class="footer-media">
+              <a href="https://www.instagram.com/internat_pzs2/"
+                ><img src="img/iconmonstr-instagram-15-32.png" alt="instagram"
+              /></a>
+            </li>
+            <li class="footer-media">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                ><img src="img/iconmonstr-youtube-10-32.png" alt="youtube"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-info">
+        <div class="footer-entrences">
+          <p class="entrences-p">Wejść dzisiaj:</p>
+          <p class="entrences-p">Wszystkie wejśćia:</p>
+        </div>
+        <nav class="copyright-nav">
+          <ul>
+            <div class="footer-stick">
+              <li class="copyright-list">
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
               </li>
             </div>
-            <div class="divstick2">
-              <li>
-                <p>info o<a href="">coockies</a></p>
+            <div class="footer-stick">
+              <li class="copyright-list">
+                info o <a href="cookies" class="copyright-links">coockies</a>
               </li>
             </div>
-            <div class="divstick2">
-              <li>
-                <p>Powered by<a href="">Quickcms</a></p>
+            <div class="footer-stick">
+              <li class="copyright-list">
+                Powered by
+                <a href="Quickcms" class="copyright-links">Quickcms</a>
               </li>
             </div>
-            <div class="divstick2">
-              <li>
-                <p>Webmaster by<a href="">Budowa strony</a></p>
+            <div class="footer-stick">
+              <li class="copyright-list">
+                Webmaster by
+                <a href="Webmaster" class="copyright-links">Budowa strony</a>
               </li>
             </div>
           </ul>
-        </div>
-      </section>
+        </nav>
+      </div>
     </footer>
   </body>
 </html>

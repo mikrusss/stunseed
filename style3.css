@@ -1,0 +1,34 @@
+main {
+  background-color: lightgrey;
+}
+.section6 {
+  width: 100%;
+  height: 2000px;
+  border: 1px solid transparent;
+  display: flexbox;
+}
+.divlink {
+  margin-bottom: 25px;
+}
+.divh2space {
+  margin-bottom: 80px;
+}
+.divlink .linkpic {
+  content: url(img/modern\ stairs\ gallery.jpg);
+}
+.divlink .linkpic2 {
+  content: url(img/modernroom\ gallery.jpg);
+}
+.divlink .linkpic3 {
+  content: url(img/rooftop\ gallery.jpg);
+}
+.divlink2 {
+  width: 50%;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid red;
+}
+.divlink2 {
+  background-color: lightgrey;
+}

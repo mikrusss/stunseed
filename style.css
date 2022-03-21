@@ -1,176 +1,261 @@
-.section1 {
-  margin-top: 20px;
-  margin-left: 250px;
+.body-home {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+/*-------------------Header do home-------------------*/
+
+.header-home {
   display: flex;
+  width: auto;
+  height: 85px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 15%;
   align-items: center;
-  background-color: white;
   border: 1px solid transparent;
 }
-.div1 {
-  padding-left: 48%;
+
+.header-nav {
+  padding-left: 55%;
+  display: inline;
+  font-size: 1.2rem;
+  background-color: white;
+}
+
+.header-stick {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-stick::after {
+  content: "";
   display: flex;
+  height: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-right: 1px solid lightgrey;
+  transform: skew(-20deg);
+  align-items: center;
 }
-body {
-  font-family: Arial, Helvetica, sans-serif;
+
+.header-stick-no-border {
+  display: inline-flex;
 }
-a {
+
+.header-links {
   text-decoration: none;
   color: grey;
   padding-left: 8px;
   padding-right: 8px;
-  margin-top: 30px;
+  margin-top: auto;
   transition: color 0.4s;
 }
-.divstick {
-  display: inline-flex;
-  align-items: center;
-}
-.divstick::after {
-  content: "";
-  display: flex;
-  border-right: 1px solid lightgrey;
-  transform: skew(-20deg);
-  margin-top: 20px;
-  height: 45px;
-  align-items: center;
-}
-a:hover {
+
+.header-links:hover {
   color: orange;
 }
-li {
-  display: inline-flex;
-  padding-right: 15px;
-  padding-left: 15xp;
+
+/*-------------------Main do home-------------------*/
+
+.main-home {
+  display: block;
 }
-.divstickno-border {
-  display: inline-flex;
-}
-main {
-  margin-top: 25px;
-}
-.section2 {
-  background-color: lightgrey;
-  height: 450px;
-  width: 100%;
+
+.section-introduction {
   display: flex;
+  width: auto;
+  height: 450px;
+  margin-top: 10px;
+  background-color: lightgrey;
+  border: 1px solid transparent;
 }
-.div2 {
-  text-align: left;
+
+.introduction-text {
+  width: 20%;
   padding: 10px;
   padding-top: 60px;
-  width: 20%;
-  height: 100%;
+  padding-left: 25px;
 }
-.pic {
-  display: inline-flex;
-  width: 80%;
-  content: url(img/greystairs.png);
-}
-h2 {
+
+.introduction-title {
+  margin-bottom: 5px;
   color: orange;
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 1.8rem;
+  font-weight: 450;
 }
-p {
-  font-size: 15px;
+
+.introduction-p {
+  font-size: 1rem;
   color: grey;
   font-weight: 500;
 }
-.section3 {
-  background-color: white;
-  height: 400px;
-  width: 100%;
-  display: flex;
+
+.introduction-image {
+  content: url(img/greystairs.png);
+  width: 80%;
 }
-.div3 {
-  margin-top: 100px;
-  margin-right: 100px;
-  margin-left: -70px;
-  padding: 30px 30px;
-  height: 60%;
-  width: 450px;
+
+.section-home {
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color: white;
+  border: 1px solid transparent;
+}
+
+.home-img {
+  content: url(img/modernroom.jpg);
+  width: 600px;
+  height: 400px;
+  margin: 5%;
+  margin-left: 28%;
+}
+
+.home-text {
+  text-align: left;
+  width: 550px;
+  height: 320px;
+  margin: 5%;
+  margin-top: 10%;
+  right: 250px;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 50px;
+  border: 3px solid orange;
+}
+
+.home-title {
+  margin-bottom: 5px;
+  color: orange;
+  font-size: 1.6rem;
+  font-weight: 450;
+}
+
+.home-line {
+  width: 25%;
+  height: 0px;
+  margin-left: 0px;
+  margin-top: auto;
   border: 1px solid orange;
 }
-.div3 h2 {
-  margin-left: 50px;
-  text-decoration-line: underline;
+
+.home-p {
+  font-size: 1rem;
+  color: grey;
+  font-weight: 500;
 }
-.div3 p {
-  margin-left: 50px;
-}
-.div2 hr {
-  width: 10px;
-}
-.pic2 {
-  width: 500px;
-  height: 350px;
-  content: url(img/modernroom.jpg);
-  margin-left: 500px;
-  margin-top: 50px;
-}
-.section4 {
-  width: 100%;
-  height: 250px;
-  margin-top: 5px;
+
+/*-------------------Footer do home-------------------*/
+
+.footer-home {
   display: block;
-  border: 2px solid transparent;
-  background-color: white;
-}
-.divfooter {
+  width: auto;
+  height: auto;
   border: 1px solid transparent;
+}
+
+.footer-contact {
   width: 100%;
-  height: 65%;
-  text-align: center;
-  background-color: lightgrey;
-}
-.divfooter a,
-p {
-  margin-top: 50px;
-}
-.divfooter p {
-  font-size: 20px;
-}
-.divfooter a {
-  font-size: 25px;
-  color: orange;
-}
-.divfooter a:hover {
-  color: grey;
-  transition: color 0.4s;
-}
-.divfooter2 {
-  width: 100%;
-  height: 30%;
-  margin: 10px 0px;
-  background-color: lightgrey;
-  border: 1px solid transparent;
-  text-align: center;
-  font-size: 20px;
+  height: 180px;
   align-items: center;
+  text-align: center;
+  background-color: lightgrey;
 }
-.divfooter2 a {
-  color: orange;
-}
-.divfooter2 a:hover {
+
+.tell-p {
+  padding-top: 35px;
+  font-size: 1.4rem;
   color: grey;
+  font-weight: 500;
+}
+
+.tell-a {
+  padding-left: 15px;
+  font-size: 1.8rem;
+  color: orange;
+  text-decoration: none;
   transition: color 0.4s;
 }
-.divstick2 {
+
+.tell-a:hover {
+  color: grey;
+  transition: 0.4s;
+}
+
+.media-nav {
+  display: inline;
+}
+
+.footer-media {
   display: inline-flex;
-  align-items: center;
-  margin-top: -100px;
+  padding-top: 30px;
+  position: static;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.divstick2::after {
+
+.footer-info {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  align-items: center;
+  text-align: center;
+  background-color: lightgrey;
+  font-size: 1rem;
+}
+
+.footer-entrences {
+  display: inline-flex;
+}
+
+.entrences-p {
+  font-size: 1.4rem;
+  color: grey;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: 500;
+}
+
+.copyright-nav {
+  display: block;
+  margin-top: 30px;
+  font-size: 1.1rem;
+  color: grey;
+}
+
+.copyright-list {
+  text-decoration: none;
+  display: inherit;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer-stick {
+  display: inline;
+  align-items: center;
+}
+
+.footer-stick::after {
+  display: inherit;
   content: "";
-  display: flex;
+  height: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   border-right: 2px solid grey;
-  margin-top: 35px;
-  height: 20px;
   align-items: center;
 }
-.footerp {
-  text-align: center;
-  display: inline-flex;
-  margin-top: -50px;
-  margin-bottom: -10px;
+.copyright-links {
+  text-decoration: none;
+  color: orange;
+  transition: 0.4s;
+}
+
+.copyright-links:hover {
+  color: grey;
+  transition: 0.4s;
 }
