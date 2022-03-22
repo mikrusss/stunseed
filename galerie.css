@@ -64,6 +64,7 @@
 
 .main-galerie {
   display: block;
+  padding-top: 20px;
   width: auto;
   height: auto;
   background-color: lightgrey;
