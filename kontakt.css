@@ -1,0 +1,274 @@
+.body-kontakt {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+/*-------------------Header do kontaku-------------------*/
+
+.header-kontakt {
+  display: flex;
+  width: auto;
+  height: 85px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 15%;
+  align-items: center;
+  border: 1px solid transparent;
+}
+
+.header-nav {
+  padding-left: 55%;
+  display: inline;
+  font-size: 1.2rem;
+  background-color: white;
+}
+
+.header-stick {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-stick::after {
+  content: "";
+  display: flex;
+  height: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-right: 1px solid lightgrey;
+  transform: skew(-20deg);
+  align-items: center;
+}
+
+.header-stick-no-border {
+  display: inline-flex;
+}
+
+.header-links {
+  text-decoration: none;
+  color: grey;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: auto;
+  transition: color 0.4s;
+}
+
+.header-links:hover {
+  color: orange;
+}
+
+/*-------------------Main do kontaku-------------------*/
+
+.main-kontakt {
+  display: inline-block;
+  width: 100%;
+  height: 1050px;
+  background-color: lightgrey;
+}
+
+.section-kontakt {
+  display: block;
+  width: auto;
+  height: auto;
+  background-color: inherit;
+  text-align: center;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.title-kontakt {
+  padding-top: 75px;
+  text-align: center;
+}
+
+.title-text {
+  color: orange;
+  font-size: 2.7rem;
+  letter-spacing: 20px;
+}
+
+.line-kontakt {
+  width: 15%;
+  height: auto;
+  margin-bottom: 50px;
+  border: 1px solid orange;
+}
+
+.div-text-kontakt {
+  display: block;
+  text-align: center;
+  width: 50%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.div-email-kontakt {
+  display: block;
+  text-align: center;
+  width: 50%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.p-email {
+  margin-bottom: 10px;
+  color: grey;
+  font-size: 2rem;
+}
+
+.link-email {
+  color: orange;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.4s;
+}
+
+.link-email:hover {
+  color: grey;
+  transition: 0.4s;
+}
+
+.div-localisation-kontakt {
+  display: block;
+  text-align: center;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  color: grey;
+  font-size: 1.1rem;
+}
+
+.span-localisation {
+  font-size: 2rem;
+}
+
+.map-kontakt {
+  display: block;
+  width: 1500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+/*-------------------Footer do kontakt-------------------*/
+
+.footer-kontakt {
+  display: block;
+  width: auto;
+  height: auto;
+  background-color: lightgrey;
+}
+
+.footer-contact {
+  width: 100%;
+  height: 180px;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+.tell-p {
+  padding-top: 35px;
+  font-size: 1.4rem;
+  color: grey;
+  font-weight: 500;
+}
+
+.tell-a {
+  padding-left: 15px;
+  font-size: 1.8rem;
+  color: orange;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+.tell-a:hover {
+  color: grey;
+  transition: 0.4s;
+}
+
+.media-nav {
+  display: inline;
+}
+
+.footer-media {
+  display: inline-flex;
+  padding-top: 30px;
+  position: static;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer-info {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.footer-entrences {
+  display: inline-flex;
+}
+
+.entrences-p {
+  font-size: 1.4rem;
+  color: grey;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: 500;
+}
+
+.copyright-nav {
+  display: block;
+  margin-top: 30px;
+  font-size: 1.1rem;
+  color: grey;
+}
+
+.copyright-list {
+  text-decoration: none;
+  display: inherit;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer-stick {
+  display: inline;
+  align-items: center;
+}
+
+.footer-stick::after {
+  display: inherit;
+  content: "";
+  height: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-right: 2px solid grey;
+  align-items: center;
+}
+
+.copyright-links {
+  text-decoration: none;
+  color: orange;
+  transition: 0.4s;
+}
+
+.copyright-links:hover {
+  color: grey;
+  transition: 0.4s;
+}
