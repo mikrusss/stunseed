@@ -5,7 +5,7 @@
   font-size: 1rem;
 }
 
-/*-------------------Header do home-------------------*/
+/*-------------------Header do o nas-------------------*/
 
 .header-onas {
   display: flex;
@@ -60,7 +60,7 @@
   color: orange;
 }
 
-/*-------------------Main do home-------------------*/
+/*-------------------Main do o nas-------------------*/
 
 .main-onas {
   display: inline-block;
@@ -168,7 +168,7 @@
   content: icon;
 }
 
-/*-------------------Footer do home-------------------*/
+/*-------------------Footer do o nas-------------------*/
 
 .footer-onas {
   display: block;

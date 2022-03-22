@@ -5,7 +5,7 @@
   font-size: 1rem;
 }
 
-/*-------------------Header do home-------------------*/
+/*-------------------Header do galerie-------------------*/
 
 .header-galerie {
   display: flex;
@@ -60,7 +60,7 @@
   color: orange;
 }
 
-/*-------------------Main do home-------------------*/
+/*-------------------Main do galerie-------------------*/
 
 .main-galerie {
   display: block;
@@ -73,6 +73,19 @@
   display: block;
   align-items: center;
   text-align: center;
+}
+
+.title-galerie {
+  color: orange;
+  font-size: 3.5em;
+  letter-spacing: 25px;
+}
+
+.line-galerie {
+  width: 25%;
+  height: auto;
+  margin-bottom: 50px;
+  border: 1px solid orange;
 }
 
 .div-gkwadratowa {
@@ -108,6 +121,18 @@
 .p-gkwadratowa {
   color: grey;
   margin-bottom: 10px;
+}
+
+.link-galerie {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: orange;
+  transition: 0.4s;
+}
+
+.link-galerie:hover {
+  color: grey;
+  transition: 0.4s;
 }
 
 .div-gstandardowa {
@@ -223,7 +248,7 @@
   margin-bottom: 10px;
 }
 
-/*-------------------Footer do home-------------------*/
+/*-------------------Footer do galerie-------------------*/
 
 .footer-galerie {
   display: block;

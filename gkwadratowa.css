@@ -1,0 +1,134 @@
+.body-kwadratowa {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+/*-------------------Header do galerie-------------------*/
+
+.header-kwadratowa {
+  display: flex;
+  width: auto;
+  height: 85px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 15%;
+  align-items: center;
+  marker: none;
+  border: 1px solid transparent;
+}
+
+.header-nav {
+  padding-left: 55%;
+  text-decoration: none;
+  display: inline;
+  font-size: 1.2rem;
+  background-color: white;
+}
+
+.header-stick {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-stick::after {
+  content: "";
+  display: flex;
+  height: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-right: 1px solid lightgrey;
+  transform: skew(-20deg);
+  align-items: center;
+}
+
+.header-stick-no-border {
+  display: inline-flex;
+}
+
+.header-links {
+  text-decoration: none;
+  color: grey;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: auto;
+  transition: color 0.4s;
+}
+
+.header-links:hover {
+  color: orange;
+}
+
+/*-------------------Main do galerie-------------------*/
+
+.main-kwadratowa {
+  display: block;
+  width: auto;
+  height: auto;
+  background-color: lightgrey;
+}
+
+.section-kwadratowa {
+  display: block;
+  margin-right: 25%;
+  margin-left: 25%;
+  width: 50%;
+  height: fit-content;
+  text-align: center;
+}
+
+.title-kwadratowa {
+  padding-bottom: 20px;
+  color: orange;
+  font-size: 3rem;
+  font-weight: 50;
+  letter-spacing: 25px;
+}
+
+.line-kwadratowa {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  bottom: 20px;
+  position: relative;
+  border: 1px solid orange;
+}
+
+.back-to-galerie {
+  display: inline;
+  width: fit-content;
+  height: fit-content;
+  text-align: left;
+  align-items: flex-start;
+  bottom: 15px;
+  position: relative;
+}
+
+.p-back-to-galerie {
+  color: orange;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+.link-back-to-galerie {
+  text-decoration: none;
+  color: grey;
+  font-size: inherit;
+  transition: 0.4s;
+}
+
+.link-back-to-galerie:hover {
+  color: orange;
+  transition: 0.4s;
+}
+
+.text-kwadratowa {
+  display: inline;
+  text-align: left;
+  font-size: 1.3rem;
+  color: grey;
+}
