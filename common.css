@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*-------------------Header do home-------------------*/
+ul {
+  display: flex;
+}
+header {
+  display: flex;
+  width: auto;
+  height: 85px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 15%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: inline;
+  font-size: 1.2rem;
+  background-color: white;
+}
+
+.header-list {
+  border-right: 1px solid grey;
+  transform: skew(-20deg);
+}
+
+.header-links {
+  text-decoration: none;
+  color: grey;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: auto;
+  transition: color 0.4s;
+  transform: skew(20deg);
+}
+
+.header-list a {
+  transform: skew(20deg);
+}
+
+.header-links:hover {
+  color: orange;
+}
+
+.header-list:last-of-type {
+  border: none;
+}
